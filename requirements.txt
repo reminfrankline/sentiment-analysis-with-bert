@@ -1,6 +1,6 @@
 torch
 transformers[torch]
-accelerate -U
+accelerate
 streamlit
 pyngrok
 datasets

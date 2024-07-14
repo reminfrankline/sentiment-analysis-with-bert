@@ -110,7 +110,7 @@ from pyngrok import ngrok
 subprocess.run(['pip', 'install', 'transformers'])
 subprocess.run(["pip", "install", "torch==2.3.0+cu121", "-f", "https://download.pytorch.org/whl/torch_stable.html"])
 
-ngrok authtoken 2hhh4mkwYbDhugYShg3XH1i3YzQ_4ZAmdNYp1gTe9dLfocRc1
+ngrok.set_auth_token("2hhh4mkwYbDhugYShg3XH1i3YzQ_4ZAmdNYp1gTe9dLfocRc1")
 
 public_url = ngrok.connect(8501)
 print(" * ngrok tunnel URL:", public_url)

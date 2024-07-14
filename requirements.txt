@@ -1,7 +1,7 @@
 accelerate
 pandas==2.2.2
 scikit-learn==1.2.2
-torch==2.3.0+cu121
+torch==2.3.0
 transformers==4.30.0
 datasets==2.4.0
 streamlit==1.36.0
